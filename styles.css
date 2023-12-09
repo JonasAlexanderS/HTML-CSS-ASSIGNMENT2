@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 350px;
+  width: 900px;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  padding: 40px 0;
+  color: hsl(0, 0%, 95%);
+  letter-spacing: 1px;
+}
+
+#text-sedan {
+  padding: 0 0 15px 0;
+}
+
+p {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0 0 30px 0;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+#sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.learn-box {
+  display: inline-block;
+  border-radius: 50px;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  padding: 15px 30px;
+  margin: 30px 0;
+  background-color: hsl(0, 0%, 95%);
+}
+
+#sedan-box {
+  color: hsl(31, 77%, 52%);
+  margin: 15px 0 0 0;
+}
+
+#suv-box {
+  color: hsl(184, 100%, 22%);
+}
+
+#luxury-box {
+  color: hsl(179, 100%, 13%);
+}
